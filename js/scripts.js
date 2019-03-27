@@ -1,12 +1,24 @@
+// $(document).ready(function() {
+//   $(".btn").click(function(event) {
+//     var beverage = $("#beverage").val();
+// 
+// 
+//     $(".order").text(beverage);
+//     $("p").show();
+// 
+// 
+//     event.preventDefault();
+//   });
+// });
+
 $(document).ready(function() {
   $(".btn").click(function(event) {
-    var beverage = $("#beverage").val();
-
+    var dob = $("#born").val();  
     
-    $(".order").text(beverage);
-    $("p").show();
-
-
-    event.preventDefault();
+  $("#date").text(dob);
+  $("#date").show();
+  
+  event.preventDefault();
   });
 });
+
